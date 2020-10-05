@@ -164,6 +164,7 @@ func getWildcard(sub string) *wildcard {
 
 var wildcardQueryTypes = []string{
 	"CNAME",
+	"TXT",
 	"A",
 	"AAAA",
 }
