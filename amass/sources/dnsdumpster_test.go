@@ -3,7 +3,7 @@ package sources
 import (
 	"testing"
 
-	"github.com/OWASP/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/core"
 )
 
 func TestDNSDumpster(t *testing.T) {

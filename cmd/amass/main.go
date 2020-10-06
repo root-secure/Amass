@@ -10,15 +10,15 @@ import (
 	"os"
 	"path"
 
-	"github.com/OWASP/Amass/amass"
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/sources"
+	"github.com/root-secure/Amass/amass"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/sources"
 	"github.com/fatih/color"
 )
 
 const (
-	exampleConfigFileURL = "https://github.com/OWASP/Amass/blob/master/examples/config.ini"
-	userGuideURL         = "https://github.com/OWASP/Amass/blob/master/doc/user_guide.md"
+	exampleConfigFileURL = "https://github.com/root-secure/Amass/blob/master/examples/config.ini"
+	userGuideURL         = "https://github.com/root-secure/Amass/blob/master/doc/user_guide.md"
 )
 
 var (

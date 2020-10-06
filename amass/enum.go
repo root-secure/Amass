@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/handlers"
-	"github.com/OWASP/Amass/amass/sources"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/handlers"
+	"github.com/root-secure/Amass/amass/sources"
+	"github.com/root-secure/Amass/amass/utils"
 	"github.com/google/uuid"
 )
 

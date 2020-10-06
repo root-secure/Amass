@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils"
 )
 
 // IPv4Info is the Service that handles access to the IPv4Info data source.

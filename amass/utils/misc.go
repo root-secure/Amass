@@ -19,7 +19,7 @@ const (
 	// SUBRE is a regular expression that will match on all subdomains once the domain is appended.
 	SUBRE = "(([a-zA-Z0-9]{1}|[_a-zA-Z0-9]{1}[_a-zA-Z0-9-]{0,61}[a-zA-Z0-9]{1})[.]{1})+"
 
-	tldList = "https://raw.githubusercontent.com/OWASP/Amass/develop/wordlists/tldlist.txt"
+	tldList = "https://raw.githubusercontent.com/root-secure/Amass/develop/wordlists/tldlist.txt"
 )
 
 var (

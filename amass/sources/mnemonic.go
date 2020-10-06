@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils"
 )
 
 // Mnemonic is the Service that handles access to the Mnemonic data source.

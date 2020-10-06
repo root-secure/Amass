@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils"
 	"github.com/fatih/color"
 )
 
@@ -96,7 +96,7 @@ func PrintEnumerationSummary(total int, tags map[string]int, asns map[int]*ASNSu
 	fmt.Fprintln(color.Error)
 	// Print the header information
 	title := "OWASP Amass v"
-	site := "https://github.com/OWASP/Amass"
+	site := "https://github.com/root-secure/Amass"
 	b.Fprint(color.Error, title+Version)
 	num := 80 - (len(title) + len(Version) + len(site))
 	pad(num, " ")

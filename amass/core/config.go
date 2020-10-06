@@ -20,7 +20,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/utils"
 	"github.com/go-ini/ini"
 	"github.com/google/uuid"
 )
@@ -29,8 +29,8 @@ const (
 	// DefaultOutputDirectory is the name of the directory used for output files, such as the graph database.
 	DefaultOutputDirectory = "amass"
 	
-	defaultWordlistURL     = "https://raw.githubusercontent.com/OWASP/Amass/master/wordlists/namelist.txt"
-	defaultAltWordlistURL  = "https://raw.githubusercontent.com/OWASP/Amass/master/wordlists/alterations.txt"
+	defaultWordlistURL     = "https://raw.githubusercontent.com/root-secure/Amass/master/wordlists/namelist.txt"
+	defaultAltWordlistURL  = "https://raw.githubusercontent.com/root-secure/Amass/master/wordlists/alterations.txt"
 )
 
 // Config passes along Amass configuration settings and options.

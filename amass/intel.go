@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/sources"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/sources"
+	"github.com/root-secure/Amass/amass/utils"
 )
 
 // IntelCollection is the object type used to execute a open source information gathering with Amass.
@@ -264,7 +264,7 @@ func LookupASNsByName(s string) ([]*core.ASNRequest, error) {
 	var records []*core.ASNRequest
 
 	s = strings.ToLower(s)
-	url := "https://raw.githubusercontent.com/OWASP/Amass/master/wordlists/asnlist.txt"
+	url := "https://raw.githubusercontent.com/root-secure/Amass/master/wordlists/asnlist.txt"
 	page, err := utils.RequestWebPage(url, nil, nil, "", "")
 	if err != nil {
 		return records, err

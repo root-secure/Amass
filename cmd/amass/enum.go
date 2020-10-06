@@ -21,9 +21,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/OWASP/Amass/amass"
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils"
 	"github.com/fatih/color"
 	homedir "github.com/mitchellh/go-homedir"
 )

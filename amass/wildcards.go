@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/OWASP/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/core"
 	"github.com/miekg/dns"
 )
 

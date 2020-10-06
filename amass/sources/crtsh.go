@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq" // Need the postgres driver
 )

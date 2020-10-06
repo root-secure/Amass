@@ -9,8 +9,8 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils"
 	"github.com/miekg/dns"
 )
 

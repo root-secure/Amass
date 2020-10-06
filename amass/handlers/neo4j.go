@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils/viz"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils/viz"
 	bolt "github.com/johnnadratowski/golang-neo4j-bolt-driver"
 )
 

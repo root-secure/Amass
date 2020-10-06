@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils"
 )
 
 // Ask is the Service that handles access to the Ask data source.

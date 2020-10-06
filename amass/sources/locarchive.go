@@ -4,8 +4,8 @@
 package sources
 
 import (
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils"
 )
 
 // LoCArchive is the Service that handles access to the LoCArchive data source.

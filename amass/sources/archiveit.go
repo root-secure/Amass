@@ -4,8 +4,8 @@
 package sources
 
 import (
-	"github.com/OWASP/Amass/amass/core"
-	"github.com/OWASP/Amass/amass/utils"
+	"github.com/root-secure/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/utils"
 )
 
 // ArchiveIt is the Service that handles access to the ArchiveIt data source.

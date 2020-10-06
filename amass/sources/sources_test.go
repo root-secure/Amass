@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/OWASP/Amass/amass/core"
+	"github.com/root-secure/Amass/amass/core"
 )
 
 var (
